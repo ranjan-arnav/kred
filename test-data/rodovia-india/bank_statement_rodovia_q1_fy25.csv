@@ -1,0 +1,36 @@
+Date,Description,Debit,Credit,Balance,Mode
+2024-04-01,Opening Balance,,,3456789.00,
+2024-04-05,Customer Receipt - L&T Construction,,1850000.00,5306789.00,RTGS
+2024-04-08,Sub-contractor Payment - ABC Infracon,890000.00,,4416789.00,NEFT
+2024-04-10,Salary Disbursement - April,425000.00,,3991789.00,NEFT
+2024-04-12,Material Purchase - Ultratech Cement,678000.00,,3313789.00,NEFT
+2024-04-15,Customer Receipt - NHAI Project,,2400000.00,5713789.00,RTGS
+2024-04-18,Equipment Rental - JCB India,245000.00,,5468789.00,NEFT
+2024-04-20,GST Payment - March,312500.00,,5156289.00,NEFT
+2024-04-22,Customer Receipt - MMRDA,,1200000.00,6356289.00,RTGS
+2024-04-25,Fuel & Diesel Purchase,189000.00,,6167289.00,NEFT
+2024-04-28,Insurance Premium - ICICI Lombard,156000.00,,6011289.00,NEFT
+2024-05-02,Customer Receipt - Shapoorji Pallonji,,980000.00,6991289.00,RTGS
+2024-05-05,Sub-contractor Payment - RS Infra,560000.00,,6431289.00,NEFT
+2024-05-08,Material Purchase - JSW Steel,445000.00,,5986289.00,NEFT
+2024-05-10,Salary Disbursement - May,435000.00,,5551289.00,NEFT
+2024-05-12,Customer Receipt - Godrej Properties,,1650000.00,7201289.00,RTGS
+2024-05-15,Cheque Bounce - Sub-contractor,,,-7201289.00,Cheque Return
+2024-05-15,Cheque Bounce Penalty,2500.00,,7198789.00,
+2024-05-18,Customer Receipt - NHAI Tranche 2,,2100000.00,9298789.00,RTGS
+2024-05-20,Vehicle EMI - Tata Motors Finance,89000.00,,9209789.00,NEFT
+2024-05-22,Office Rent - Bandra,175000.00,,9034789.00,NEFT
+2024-05-25,Customer Receipt - BMC Road Project,,850000.00,9884789.00,RTGS
+2024-05-28,Professional Fees - CA Firm,45000.00,,9839789.00,NEFT
+2024-06-02,GST Payment - May,287500.00,,9552289.00,NEFT
+2024-06-05,Customer Receipt - L&T Phase 2,,1450000.00,11002289.00,RTGS
+2024-06-08,Sub-contractor Payment - Patel Engg,780000.00,,10222289.00,NEFT
+2024-06-10,Salary Disbursement - June,445000.00,,9777289.00,NEFT
+2024-06-12,Material Purchase - ACC Cement,534000.00,,9243289.00,NEFT
+2024-06-15,Customer Receipt - MMRDA Phase 2,,1800000.00,11043289.00,RTGS
+2024-06-18,Income Tax Advance - Q1,125000.00,,10918289.00,NEFT
+2024-06-20,Customer Receipt - Private Villa Project,,675000.00,11593289.00,NEFT
+2024-06-25,OD Interest - HDFC Bank,34500.00,,11558789.00,Auto-Debit
+2024-06-28,Cheque Bounce - Customer Cheque,,,-11558789.00,Cheque Return
+2024-06-28,Cheque Bounce Penalty,2500.00,,11556289.00,
+2024-06-30,Quarter-end Closing Balance,,,11556289.00,

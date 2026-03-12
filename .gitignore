@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pkl
+.env
+.env.*
+venv/
+.venv/
+env/
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/build/
+.pnpm-debug.log
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Logs / debug / local test artifacts
+debug.txt
+*.log
+backend/cam_actual*.json
+backend/cam_actual*.json
+backend/final_cam.json
+backend/cam_mock-*.pdf
+backend/test_cam_out*.json
+backend/test_out*.txt
+
+# Test outputs
+test_out*.txt
+test_cam_out*.json
+test_analyze.py
+test_cam.py
+test_ddgs.py
+test_e2e_user_data.py
+test_gnews.py
+test_mistral.py
+test_models.py
+test_phi4.py
+
+# Bundled repos (included as source, not submodules)
+backend/repos/
+
+# PDF test files
+PDF TEST/
+
+# Stitch design reference files
+stitch_intelli_credit_obsidian_vault_prd/
+CAM IMAGES FOR REF/

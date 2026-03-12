@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: Archivo, sans-serif;
+  --font-body: Inter, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-primary: #FF3300;
+  --color-background-light: #fcf9f8;
+
+  --animate-marquee: marquee 25s linear infinite;
+  --animate-scanline: scanline 8s linear infinite;
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes scanline {
+    0% {
+      transform: translateY(-100%);
+    }
+
+    100% {
+      transform: translateY(100vh);
+    }
+  }
+}
+
+:root {
+  background-color: #0A0A0A;
+  color: #F8FAFC;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #0A0A0A;
+  color: #F8FAFC;
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Base tailwind styles */
+@layer base {
+  html {
+    background-color: #0A0A0A;
+    color: #F8FAFC;
+  }
+}
+
+/* ── Utility classes replacing inline styles ── */
+.scoring-canvas-bg {
+  background-image: linear-gradient(to right, #e5e5e5 1px, transparent 1px),
+    linear-gradient(to bottom, #e5e5e5 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+.score-bar-fill    { width: var(--bar-w, 0%); }
+.zoom-container    { transform: scale(var(--zoom, 1)); transform-origin: center top; transition: transform 0.2s ease; }
+.five-c-bar        { width: var(--bar-w, 0%); }
+.benchmark-dot     { left: var(--dot-left, 0%); }
+.anomaly-bar       { height: var(--bar-h, 0px); }
+.anomaly-gst-bar   { height: var(--gst-h, 0px); }
+.progress-bar-fill { width: var(--progress-w, 0%); }
+.terminal-glow     { text-shadow: 0 0 2px rgba(0, 255, 0, 0.4); }
+.pulse-color       { color: var(--pulse-col, #6b7280); }
+.donut-chart {
+  background: conic-gradient(#000 0% 55%, transparent 55% 85%, #FF3300 85% 100%);
+}
+.landing-grid-bg {
+  background-image: linear-gradient(#333 1px, transparent 1px),
+    linear-gradient(90deg, #333 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+.landing-title-vert {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+}
