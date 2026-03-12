@@ -6,7 +6,7 @@ import { useAppContext } from '../context/AppContext';
 
 const RiskDNA: React.FC = () => {
     const navigate = useNavigate();
-    const { isAnalyzed, analysisData } = useAppContext();
+    const { isAnalyzed } = useAppContext();
 
     if (!isAnalyzed) {
         return (

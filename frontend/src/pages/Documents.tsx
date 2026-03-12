@@ -232,7 +232,7 @@ const Documents: React.FC = () => {
                             </div>
                         )}
 
-                        {files.map((file, idx) => (
+                        {files.map((file) => (
                             <div key={file.id} className={`relative bg-white border ${file.status === 'error' ? 'border-[#FF3300]' : 'border-black'} p-3 transition-all group cursor-pointer hover:shadow-[4px_4px_0px_0px_rgba(255,51,0,1)] hover:border-[#FF3300]`}>
                                 <div className="flex justify-between items-start mb-2">
                                     <div className="flex items-center gap-2">
