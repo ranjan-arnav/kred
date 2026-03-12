@@ -9,10 +9,11 @@ load_dotenv()
 
 app = FastAPI(title="Kred API", version="2.0.0", redirect_slashes=False)
 
-# Configure CORS for Vite frontend
+# Configure CORS — reads additional origins from ALLOWED_ORIGINS env var (comma-separated)
+_extra_origins = [o.strip() for o in os.environ.get("ALLOWED_ORIGINS", "").split(",") if o.strip()]
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"] + _extra_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
