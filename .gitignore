@@ -60,6 +60,10 @@ backend/repos/
 # PDF test files
 PDF TEST/
 
+# Test data
+test-data/
+test-datav2/
+
 # Stitch design reference files
 stitch_intelli_credit_obsidian_vault_prd/
 CAM IMAGES FOR REF/
